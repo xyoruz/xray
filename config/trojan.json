@@ -1,0 +1,1 @@
+{"inbounds":[{"port":443,"protocol":"trojan","settings":{"clients":[{"password":"password"}]},"streamSettings":{"network":"tcp","security":"tls","tlsSettings":{"certificates":[{"certificateFile":"/etc/letsencrypt/live/example.com/fullchain.pem","keyFile":"/etc/letsencrypt/live/example.com/privkey.pem"}]}}}],"outbounds":[{"protocol":"freedom","settings":{}}]}

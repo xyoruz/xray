@@ -1,0 +1,11 @@
+[Unit]
+Description=Xray Service
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/xray -confdir /etc/xray
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
